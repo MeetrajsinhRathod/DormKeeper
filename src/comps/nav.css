@@ -1,0 +1,100 @@
+.navbar{
+    background-color: #fff;
+    height: auto;
+    border-bottom: 2px solid #343A40;
+    padding: 0px ;
+    padding-bottom: 20px;
+}
+.navbar .container{
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.collapse{
+    width: 90%;
+    height: 100%;
+}
+.navbar-nav{ 
+    width: 70%;
+    justify-Content: space-evenly;
+    margin: auto;
+    align-items: center;
+    height: 100% ;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    text-decoration: none;
+    color:  #000029;
+    font-size: 36px;
+    font-weight:800 ;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.brand img{
+    height: 60px;
+    width: 60px;
+}
+.brand:hover{
+    color:  #000029;
+    font-weight:800 ;
+}
+.nav-item{
+    position: relative;
+    width: 18.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+}
+.nav-NavLink{
+    width: 100%;
+    text-decoration: none;
+    color: #232323;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition:  0.3s ease-in-out;
+}
+.nav-NavLink:hover{
+    color: #106eea;
+    border-bottom: 2px solid #232323;
+}
+.active{
+    color: #106eea;
+    border-bottom: 2px solid #232323;
+}
+.btn-in{
+    border: none;
+    background-color: #106eea;
+    color: #fff;
+    height: 45px;
+    border-radius: 2px;
+    width: 10rem;
+    font-weight: 700;
+}
+.btn-in:hover{
+    transition:  0.5s ease-in-out;
+    color: #343A40;
+    background-color:#106eea ;
+}
+.btn-out{
+    border: none;
+    background-color: #106eea;
+    color: #fff;
+    height: 45px;
+    border-radius: 2px;
+    width: 10rem;
+    font-weight: 700;
+}
+.btn-out:hover{
+    transition:  0.5s ease-in-out;
+    color: #343A40;
+    background-color:#106eea ;
+}

@@ -1,0 +1,174 @@
+.contact-sec{
+    background-color: #f1f6fc;
+    padding-top: 3rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.form {
+    padding: 3rem;
+    width: 70%;
+}
+.form h2{
+    width: 25%;
+    border-bottom: 2px solid #106eea;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+}
+.form .row input, .form textarea {
+    background: transparent !important;
+    color: #000029;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #000029;
+}
+
+.form label {
+    color: #000029;
+    transition: all 0.3s ease-in-out;
+}
+.holder{
+    font-size: 18px;
+    font-weight: 700;
+}
+.t-area{
+    padding-left: 0 !important;
+}
+.form-control:focus{
+    background-color: white;
+}
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+    box-shadow: none;
+} 
+.sendbtn {
+    border: none;
+    height: 3rem;
+    background: #106eea;
+    color: #ffffff;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 2px;
+    transition: all 0.5s e;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sendbtn:hover {
+    color: #343A40;
+}
+.contactinfo {
+    width: 30%;
+    padding: 3rem;
+    background: #106eea;
+}
+.contactinfo h2{
+    width: 80%;
+    color: #fff;
+    padding: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #343A40;
+
+}
+.box {
+    width: 100%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+}
+.contacttext{
+    display: flex;
+    flex-direction: column;
+}
+.contacttext p{
+    margin: 0;
+}
+.main-address {
+    width: 100%;
+}
+
+.icon {
+    width: 30%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.lead {
+    font-size: 35px;
+    color: #fff;
+}
+.s-ico{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    font-size: 20px;
+    padding: 0;
+    color: #fff;
+    margin-right: 20px;
+}  
+.social:hover{
+    color: #343A40;
+}
+.link{
+    font-size: 45px;
+}
+.contacttext {
+    width: 80%;
+    color: #fff;
+}
+.main-address{
+    margin-top: 30px;
+}
+.full-address {
+    display: flex;
+    color: #000;
+    margin-bottom: 20px;
+    height: auto;
+    width: 70%;
+}
+.full-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #000;
+    height: auto;
+    width: 70%;
+}
+.add-icon{
+    font-size: 45px;
+    margin-right: 20px;
+}
+.map{
+    margin-bottom: 30px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px!important;
+}

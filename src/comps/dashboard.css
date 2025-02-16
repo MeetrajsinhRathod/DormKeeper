@@ -1,0 +1,340 @@
+.dash-sec{
+    background-color: #f1f6fc;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.dash-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-bottom: 50px;
+}
+.accinfo{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 50px;
+    margin: auto;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+}
+.accinfo .acc{
+    width: 20%;
+    height: auto;
+    background: #106eea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.acc i{
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    font-size: 90px;
+    border-bottom: 2px solid #000029;
+}
+.acc h3{
+    color: #fff;
+    padding-top: 20px;
+}
+.accinfo .info{
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 3px;
+}
+.info input{
+    background: #f1f6fc;
+    width: 75%;
+    height: 100%;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.info .contact-form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.contact-form .info-pos{
+    width: 100%;
+    /* pointer-events: none; */
+}
+.contact-form .col-md-6{
+    display: flex;
+    height: 3.8rem;
+    align-items: center;
+    justify-content: left;
+    font-size: 40px;
+    color: #000029;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-form .col-md-6 i{
+    width: 20%;
+}
+.bi-telephone-fill{
+    font-size: 35px;
+}
+.edit-btn{
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.c-s-dis{
+    width: 100%;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px 40px 30px 40px;
+    border-radius: 3px ;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+}
+.c-s-dis table{
+    margin: auto; 
+}
+.c-s-dis h2{
+    color: #106eea ;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.add-service-container{
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.add-service-container .service{
+    width: 48%;
+}
+.service .card{
+    border: none;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+    overflow: hidden;
+}
+.service .card .title{
+    height: 8rem;
+    background: #106eea;
+    color: #fff;
+    align-items: center;
+    padding-left: 20px;
+}
+.service .card .title i{
+    justify-content: center;
+    font-size: 50px;
+    width: 20%;
+}
+.service .card .title h4{
+    font-size: 32px;
+    margin: 0;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000029;
+    text-align: left;
+    width: 65%;
+}
+.service .card .inputs{
+    padding: 30px;
+    padding-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+}
+.service .card .input-pos{
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.input-pos i{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 40px;
+}
+.input-pos .form-floating input{
+    border-bottom: 1px solid #343A40;
+}
+.input-pos .row{
+    width: 80%;
+}
+.service .card .btn-pos{
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.btn-pos .ar-btn{
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+.add-msg{
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;    
+}
+.add-msg .add-msg-container{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 50px;
+    margin: auto;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+}
+.add-msg .msg-title{
+    width: 20%;
+    height: auto;
+    background: #106eea;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg-title i{
+    width: 40%;
+    color: #fff;
+    font-size: 70px;
+    border-bottom: 2px solid #000029;
+    padding-bottom: 20px;
+}
+.msg-title h3{
+    color: #fff;
+    padding-top: 20px;
+}
+.add-msg .info{
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+}
+.info input{
+    background: #f1f6fc;
+    width: 75%;
+    height: 100%;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.info .contact-form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.contact-form .msg-pos{
+    width: 100%;
+}
+.contact-form .col-md-6{
+    display: flex;
+    height: 3.8rem;
+    align-items: center;
+    justify-content: left;
+    font-size: 40px;
+    color: #000029;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-form .col-md-6 i{
+    width: 20%;
+}
+.msg-btn{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mesh-lable{
+    width: 25%;
+    align-items: flex-start;
+    margin: 0;
+}
+.info textarea{
+    background: #f1f6fc;
+    width: 89%;
+    height: 8rem;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.contact-form .col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 40px;
+    color: #000029;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.col-md-12 i{
+    width: 10%;
+}
+.contact-form .msg-button{
+    margin-bottom: 0;
+}
+.Rooms{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.Rooms .edit-btn{
+    width: 22%;
+}
+
+.Rooms .Modal-btn{
+    width: 33.1%;
+}
+
+.Rooms input{
+    background: #f1f6fc;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.Rooms .std-name{
+    width: 55%;
+}
+
+.sheduling{
+    width: 100%;   
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 40px 30px 40px;
+    border-radius: 3px ;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+}
+.sheduling table{
+    margin: auto; 
+}
+.sheduling h2{
+    color: #106eea ;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,169 @@
+.home-sec {
+  height: auto;
+  background: #f1f6fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.home-text {
+  height: 90vh;
+  width: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-text h1 {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #106eea;
+}
+
+.home-text h5 {
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.home-gallery {
+  color: white;
+  background: #106eea;
+  width: 75%;
+  border-radius: 3px;
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+}
+
+.gallery-head {
+  background: #106eea;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-head h2 {
+  border-bottom: 2px solid black;
+  width: max-content;
+  padding-bottom: 1rem;
+}
+
+.gallery-body {
+  background: white;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.column img:hover {
+  filter: grayscale(0);
+}
+
+.home-services {
+  width: 100%;
+  background: #f1f6fc;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.home-services .service-head h1 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #106eea;
+}
+
+.home-services .service-body {
+  width: 90%;
+  height: 80%;
+  justify-content: space-evenly;
+  background: transparent;
+  align-items: center;
+}
+
+.service-body .card {
+  height: 100%;
+  width: 30%;
+  background: #ffff;
+  border: none;
+  padding: 3rem;
+  color: black;
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 1%);
+  margin: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-body .card:hover {
+  background: #106eea;
+  color: #ffff;
+}
+
+.service-body .card .service-image {
+  text-align: center;
+  height: 4rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+.service-body .card .service-info {
+  text-align: center;
+  height: 10rem;
+  z-index: 1;
+}
+
+.service-body .card .s-laundry {
+  width: 70px;
+  height: 65px;
+}
+
+.service-body .card .foodimg {
+  height: 90px;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}

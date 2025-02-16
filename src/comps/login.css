@@ -1,0 +1,47 @@
+.login-sec{
+    background-color: #f1f6fc;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.login-sec h2{
+    margin: 0;
+    font-weight: 600 ;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #106eea;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+.login-sec .card{
+    padding: 3rem;
+    border: none;
+    box-shadow: 0px 1px 8px 3px rgb(0 0 0 / 0.5%);
+}
+.form-floating input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #343A40;
+}
+.holder-in-out{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 0 !important;
+}
+.form-floating input:focus{
+    outline: none;
+    box-shadow: none;
+} 
+.btn{
+    height: 3rem;
+    background: #106eea;
+    color: #ffffff;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 2px;
+    transition: all 0.5s e;
+    display: flex;
+    align-items: center;
+}
+.btn:hover{
+    color: #343A40;
+}

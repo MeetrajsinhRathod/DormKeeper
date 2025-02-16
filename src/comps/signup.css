@@ -1,0 +1,23 @@
+.signup-sec{
+    background-color: #f1f6fc;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.signup-sec h2{
+    margin: 0;
+    font-weight: 600 ;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #106eea;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+.signup-sec .card{
+    padding: 3rem;
+    border: none;
+    box-shadow: 0px 1px 8px 3px rgb(0 0 0 / 0.5%);
+}
+.btn:hover{
+    background: #106eea;
+    color: #343A40;
+}
